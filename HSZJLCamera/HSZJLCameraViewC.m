@@ -64,6 +64,19 @@
                 case AVAuthorizationStatusAuthorized:
                     [self initSession];
                     break;
+                case AVAuthorizationStatusNotDetermined: {
+                    //   用户授权
+                    [AVCaptureDevice requestAccessForMediaType:AVMediaTypeVideo completionHandler:^(BOOL granted) {
+                        if(granted){
+                            [self initSession];
+                        } else {
+                            [self dismissViewControllerAnimated:YES completion:^{
+                                
+                            }];
+                        }
+                    }];
+                }
+                    break;
                 default:
                     break;
             }
