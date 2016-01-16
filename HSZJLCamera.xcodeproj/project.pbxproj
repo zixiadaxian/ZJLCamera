@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A4C33BF1C49E4B500D89F2C /* picture_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A4C33BE1C49E4B500D89F2C /* picture_logo.png */; };
+		8A4C33C31C49EDCE00D89F2C /* HSZJLCameraViewC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A4C33C11C49EDCE00D89F2C /* HSZJLCameraViewC.m */; };
+		8A4C33C41C49EDCE00D89F2C /* HSZJLCameraViewC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A4C33C21C49EDCE00D89F2C /* HSZJLCameraViewC.xib */; };
+		8A4C33D21C4A01B900D89F2C /* calloff.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A4C33C61C4A01B900D89F2C /* calloff.png */; };
+		8A4C33D31C4A01B900D89F2C /* calloff@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A4C33C71C4A01B900D89F2C /* calloff@2x.png */; };
+		8A4C33D41C4A01B900D89F2C /* calloff@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A4C33C81C4A01B900D89F2C /* calloff@3x.png */; };
+		8A4C33D51C4A01B900D89F2C /* mirrorcamera.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A4C33C91C4A01B900D89F2C /* mirrorcamera.png */; };
+		8A4C33D61C4A01B900D89F2C /* mirrorcamera@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A4C33CA1C4A01B900D89F2C /* mirrorcamera@2x.png */; };
+		8A4C33D71C4A01B900D89F2C /* mirrorcamera@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A4C33CB1C4A01B900D89F2C /* mirrorcamera@3x.png */; };
+		8A4C33D81C4A01B900D89F2C /* takepicture_press.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A4C33CC1C4A01B900D89F2C /* takepicture_press.png */; };
+		8A4C33D91C4A01B900D89F2C /* takepicture_press@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A4C33CD1C4A01B900D89F2C /* takepicture_press@2x.png */; };
+		8A4C33DA1C4A01B900D89F2C /* takepicture_press@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A4C33CE1C4A01B900D89F2C /* takepicture_press@3x.png */; };
+		8A4C33DB1C4A01B900D89F2C /* takepicture.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A4C33CF1C4A01B900D89F2C /* takepicture.png */; };
+		8A4C33DC1C4A01B900D89F2C /* takepicture@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A4C33D01C4A01B900D89F2C /* takepicture@2x.png */; };
+		8A4C33DD1C4A01B900D89F2C /* takepicture@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A4C33D11C4A01B900D89F2C /* takepicture@3x.png */; };
+		8A4C33E21C4A0C8B00D89F2C /* picture_logo1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A4C33DF1C4A0C8B00D89F2C /* picture_logo1.png */; };
+		8A4C33E31C4A0C8B00D89F2C /* picture_logo1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A4C33E01C4A0C8B00D89F2C /* picture_logo1@2x.png */; };
+		8A4C33E41C4A0C8B00D89F2C /* picture_logo1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A4C33E11C4A0C8B00D89F2C /* picture_logo1@3x.png */; };
+		8A4C33E81C4A136E00D89F2C /* HSSaveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A4C33E61C4A136E00D89F2C /* HSSaveViewController.m */; };
+		8A4C33E91C4A136E00D89F2C /* HSSaveViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A4C33E71C4A136E00D89F2C /* HSSaveViewController.xib */; };
+		8ACFAB731C4907B7000CD468 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ACFAB721C4907B7000CD468 /* main.m */; };
+		8ACFAB761C4907B7000CD468 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ACFAB751C4907B7000CD468 /* AppDelegate.m */; };
+		8ACFAB791C4907B7000CD468 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ACFAB781C4907B7000CD468 /* ViewController.m */; };
+		8ACFAB7C1C4907B7000CD468 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8ACFAB7A1C4907B7000CD468 /* Main.storyboard */; };
+		8ACFAB7F1C4907B7000CD468 /* HSZJLCamera.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8ACFAB7D1C4907B7000CD468 /* HSZJLCamera.xcdatamodeld */; };
+		8ACFAB811C4907B8000CD468 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8ACFAB801C4907B8000CD468 /* Assets.xcassets */; };
+		8ACFAB841C4907B8000CD468 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8ACFAB821C4907B8000CD468 /* LaunchScreen.storyboard */; };
+		8ACFAB921C490853000CD468 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ACFAB911C490853000CD468 /* AVFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8A4C33BE1C49E4B500D89F2C /* picture_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = picture_logo.png; sourceTree = "<group>"; };
+		8A4C33C01C49EDCE00D89F2C /* HSZJLCameraViewC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSZJLCameraViewC.h; sourceTree = "<group>"; };
+		8A4C33C11C49EDCE00D89F2C /* HSZJLCameraViewC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSZJLCameraViewC.m; sourceTree = "<group>"; };
+		8A4C33C21C49EDCE00D89F2C /* HSZJLCameraViewC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HSZJLCameraViewC.xib; sourceTree = "<group>"; };
+		8A4C33C61C4A01B900D89F2C /* calloff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calloff.png; sourceTree = "<group>"; };
+		8A4C33C71C4A01B900D89F2C /* calloff@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "calloff@2x.png"; sourceTree = "<group>"; };
+		8A4C33C81C4A01B900D89F2C /* calloff@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "calloff@3x.png"; sourceTree = "<group>"; };
+		8A4C33C91C4A01B900D89F2C /* mirrorcamera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mirrorcamera.png; sourceTree = "<group>"; };
+		8A4C33CA1C4A01B900D89F2C /* mirrorcamera@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mirrorcamera@2x.png"; sourceTree = "<group>"; };
+		8A4C33CB1C4A01B900D89F2C /* mirrorcamera@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mirrorcamera@3x.png"; sourceTree = "<group>"; };
+		8A4C33CC1C4A01B900D89F2C /* takepicture_press.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = takepicture_press.png; sourceTree = "<group>"; };
+		8A4C33CD1C4A01B900D89F2C /* takepicture_press@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "takepicture_press@2x.png"; sourceTree = "<group>"; };
+		8A4C33CE1C4A01B900D89F2C /* takepicture_press@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "takepicture_press@3x.png"; sourceTree = "<group>"; };
+		8A4C33CF1C4A01B900D89F2C /* takepicture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = takepicture.png; sourceTree = "<group>"; };
+		8A4C33D01C4A01B900D89F2C /* takepicture@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "takepicture@2x.png"; sourceTree = "<group>"; };
+		8A4C33D11C4A01B900D89F2C /* takepicture@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "takepicture@3x.png"; sourceTree = "<group>"; };
+		8A4C33DF1C4A0C8B00D89F2C /* picture_logo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = picture_logo1.png; sourceTree = "<group>"; };
+		8A4C33E01C4A0C8B00D89F2C /* picture_logo1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "picture_logo1@2x.png"; sourceTree = "<group>"; };
+		8A4C33E11C4A0C8B00D89F2C /* picture_logo1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "picture_logo1@3x.png"; sourceTree = "<group>"; };
+		8A4C33E51C4A136E00D89F2C /* HSSaveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSSaveViewController.h; sourceTree = "<group>"; };
+		8A4C33E61C4A136E00D89F2C /* HSSaveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSSaveViewController.m; sourceTree = "<group>"; };
+		8A4C33E71C4A136E00D89F2C /* HSSaveViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HSSaveViewController.xib; sourceTree = "<group>"; };
+		8ACFAB6E1C4907B7000CD468 /* HSZJLCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HSZJLCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8ACFAB721C4907B7000CD468 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8ACFAB741C4907B7000CD468 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8ACFAB751C4907B7000CD468 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8ACFAB771C4907B7000CD468 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8ACFAB781C4907B7000CD468 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8ACFAB7B1C4907B7000CD468 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8ACFAB7E1C4907B7000CD468 /* HSZJLCamera.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HSZJLCamera.xcdatamodel; sourceTree = "<group>"; };
+		8ACFAB801C4907B8000CD468 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8ACFAB831C4907B8000CD468 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8ACFAB851C4907B8000CD468 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8ACFAB911C490853000CD468 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8ACFAB6B1C4907B7000CD468 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ACFAB921C490853000CD468 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8ACFAB651C4907B7000CD468 = {
+			isa = PBXGroup;
+			children = (
+				8ACFAB911C490853000CD468 /* AVFoundation.framework */,
+				8ACFAB701C4907B7000CD468 /* HSZJLCamera */,
+				8ACFAB6F1C4907B7000CD468 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8ACFAB6F1C4907B7000CD468 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8ACFAB6E1C4907B7000CD468 /* HSZJLCamera.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8ACFAB701C4907B7000CD468 /* HSZJLCamera */ = {
+			isa = PBXGroup;
+			children = (
+				8A4C33DF1C4A0C8B00D89F2C /* picture_logo1.png */,
+				8A4C33E01C4A0C8B00D89F2C /* picture_logo1@2x.png */,
+				8A4C33E11C4A0C8B00D89F2C /* picture_logo1@3x.png */,
+				8A4C33BE1C49E4B500D89F2C /* picture_logo.png */,
+				8A4C33C61C4A01B900D89F2C /* calloff.png */,
+				8A4C33C71C4A01B900D89F2C /* calloff@2x.png */,
+				8A4C33C81C4A01B900D89F2C /* calloff@3x.png */,
+				8A4C33C91C4A01B900D89F2C /* mirrorcamera.png */,
+				8A4C33CA1C4A01B900D89F2C /* mirrorcamera@2x.png */,
+				8A4C33CB1C4A01B900D89F2C /* mirrorcamera@3x.png */,
+				8A4C33CC1C4A01B900D89F2C /* takepicture_press.png */,
+				8A4C33CD1C4A01B900D89F2C /* takepicture_press@2x.png */,
+				8A4C33CE1C4A01B900D89F2C /* takepicture_press@3x.png */,
+				8A4C33CF1C4A01B900D89F2C /* takepicture.png */,
+				8A4C33D01C4A01B900D89F2C /* takepicture@2x.png */,
+				8A4C33D11C4A01B900D89F2C /* takepicture@3x.png */,
+				8ACFAB741C4907B7000CD468 /* AppDelegate.h */,
+				8ACFAB751C4907B7000CD468 /* AppDelegate.m */,
+				8ACFAB771C4907B7000CD468 /* ViewController.h */,
+				8ACFAB781C4907B7000CD468 /* ViewController.m */,
+				8A4C33C01C49EDCE00D89F2C /* HSZJLCameraViewC.h */,
+				8A4C33C11C49EDCE00D89F2C /* HSZJLCameraViewC.m */,
+				8A4C33C21C49EDCE00D89F2C /* HSZJLCameraViewC.xib */,
+				8A4C33E51C4A136E00D89F2C /* HSSaveViewController.h */,
+				8A4C33E61C4A136E00D89F2C /* HSSaveViewController.m */,
+				8A4C33E71C4A136E00D89F2C /* HSSaveViewController.xib */,
+				8ACFAB7A1C4907B7000CD468 /* Main.storyboard */,
+				8ACFAB801C4907B8000CD468 /* Assets.xcassets */,
+				8ACFAB821C4907B8000CD468 /* LaunchScreen.storyboard */,
+				8ACFAB851C4907B8000CD468 /* Info.plist */,
+				8ACFAB7D1C4907B7000CD468 /* HSZJLCamera.xcdatamodeld */,
+				8ACFAB711C4907B7000CD468 /* Supporting Files */,
+			);
+			path = HSZJLCamera;
+			sourceTree = "<group>";
+		};
+		8ACFAB711C4907B7000CD468 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8ACFAB721C4907B7000CD468 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8ACFAB6D1C4907B7000CD468 /* HSZJLCamera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8ACFAB881C4907B8000CD468 /* Build configuration list for PBXNativeTarget "HSZJLCamera" */;
+			buildPhases = (
+				8ACFAB6A1C4907B7000CD468 /* Sources */,
+				8ACFAB6B1C4907B7000CD468 /* Frameworks */,
+				8ACFAB6C1C4907B7000CD468 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HSZJLCamera;
+			productName = HSZJLCamera;
+			productReference = 8ACFAB6E1C4907B7000CD468 /* HSZJLCamera.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8ACFAB661C4907B7000CD468 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Hipal;
+				TargetAttributes = {
+					8ACFAB6D1C4907B7000CD468 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = M256D9DWUC;
+					};
+				};
+			};
+			buildConfigurationList = 8ACFAB691C4907B7000CD468 /* Build configuration list for PBXProject "HSZJLCamera" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8ACFAB651C4907B7000CD468;
+			productRefGroup = 8ACFAB6F1C4907B7000CD468 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8ACFAB6D1C4907B7000CD468 /* HSZJLCamera */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8ACFAB6C1C4907B7000CD468 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A4C33DD1C4A01B900D89F2C /* takepicture@3x.png in Resources */,
+				8A4C33DC1C4A01B900D89F2C /* takepicture@2x.png in Resources */,
+				8ACFAB841C4907B8000CD468 /* LaunchScreen.storyboard in Resources */,
+				8A4C33DB1C4A01B900D89F2C /* takepicture.png in Resources */,
+				8A4C33D91C4A01B900D89F2C /* takepicture_press@2x.png in Resources */,
+				8A4C33C41C49EDCE00D89F2C /* HSZJLCameraViewC.xib in Resources */,
+				8A4C33DA1C4A01B900D89F2C /* takepicture_press@3x.png in Resources */,
+				8A4C33BF1C49E4B500D89F2C /* picture_logo.png in Resources */,
+				8A4C33D41C4A01B900D89F2C /* calloff@3x.png in Resources */,
+				8A4C33E21C4A0C8B00D89F2C /* picture_logo1.png in Resources */,
+				8A4C33D61C4A01B900D89F2C /* mirrorcamera@2x.png in Resources */,
+				8A4C33D81C4A01B900D89F2C /* takepicture_press.png in Resources */,
+				8A4C33D31C4A01B900D89F2C /* calloff@2x.png in Resources */,
+				8A4C33D21C4A01B900D89F2C /* calloff.png in Resources */,
+				8A4C33D71C4A01B900D89F2C /* mirrorcamera@3x.png in Resources */,
+				8A4C33E91C4A136E00D89F2C /* HSSaveViewController.xib in Resources */,
+				8ACFAB811C4907B8000CD468 /* Assets.xcassets in Resources */,
+				8A4C33E31C4A0C8B00D89F2C /* picture_logo1@2x.png in Resources */,
+				8A4C33D51C4A01B900D89F2C /* mirrorcamera.png in Resources */,
+				8ACFAB7C1C4907B7000CD468 /* Main.storyboard in Resources */,
+				8A4C33E41C4A0C8B00D89F2C /* picture_logo1@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8ACFAB6A1C4907B7000CD468 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ACFAB7F1C4907B7000CD468 /* HSZJLCamera.xcdatamodeld in Sources */,
+				8ACFAB791C4907B7000CD468 /* ViewController.m in Sources */,
+				8ACFAB761C4907B7000CD468 /* AppDelegate.m in Sources */,
+				8ACFAB731C4907B7000CD468 /* main.m in Sources */,
+				8A4C33E81C4A136E00D89F2C /* HSSaveViewController.m in Sources */,
+				8A4C33C31C49EDCE00D89F2C /* HSZJLCameraViewC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8ACFAB7A1C4907B7000CD468 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8ACFAB7B1C4907B7000CD468 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8ACFAB821C4907B8000CD468 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8ACFAB831C4907B8000CD468 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8ACFAB861C4907B8000CD468 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8ACFAB871C4907B8000CD468 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8ACFAB891C4907B8000CD468 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = HSZJLCamera/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HIpal.HSZJLCamera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8ACFAB8A1C4907B8000CD468 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = HSZJLCamera/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HIpal.HSZJLCamera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8ACFAB691C4907B7000CD468 /* Build configuration list for PBXProject "HSZJLCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8ACFAB861C4907B8000CD468 /* Debug */,
+				8ACFAB871C4907B8000CD468 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8ACFAB881C4907B8000CD468 /* Build configuration list for PBXNativeTarget "HSZJLCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8ACFAB891C4907B8000CD468 /* Debug */,
+				8ACFAB8A1C4907B8000CD468 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8ACFAB7D1C4907B7000CD468 /* HSZJLCamera.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8ACFAB7E1C4907B7000CD468 /* HSZJLCamera.xcdatamodel */,
+			);
+			currentVersion = 8ACFAB7E1C4907B7000CD468 /* HSZJLCamera.xcdatamodel */;
+			path = HSZJLCamera.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8ACFAB661C4907B7000CD468 /* Project object */;
+}
