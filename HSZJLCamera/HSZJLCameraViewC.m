@@ -53,35 +53,36 @@
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         
-        if (floor(NSFoundationVersionNumber) <= NSFoundationVersionNumber_iOS_7_1) {
-            // iOS 7
-            [self initSession];
-        }
-        else {
-            // iOS 8
-            AVAuthorizationStatus status = [AVCaptureDevice authorizationStatusForMediaType:AVMediaTypeVideo];
-            switch (status) {
-                case AVAuthorizationStatusAuthorized:
-                    [self initSession];
-                    break;
-                case AVAuthorizationStatusNotDetermined: {
-                    //   用户授权
-                    [AVCaptureDevice requestAccessForMediaType:AVMediaTypeVideo completionHandler:^(BOOL granted) {
-                        if(granted){
-                            [self initSession];
-                        } else {
-                            [self dismissViewControllerAnimated:YES completion:^{
-                                
-                            }];
-                        }
-                    }];
-                }
-                    break;
-                default:
-                    break;
-            }
-            
-        }
+        [self initSession];
+//        if (floor(NSFoundationVersionNumber) <= NSFoundationVersionNumber_iOS_7_1) {
+//            // iOS 7
+//            [self initSession];
+//        }
+//        else {
+//            // iOS 8
+//            AVAuthorizationStatus status = [AVCaptureDevice authorizationStatusForMediaType:AVMediaTypeVideo];
+//            switch (status) {
+//                case AVAuthorizationStatusAuthorized:
+//                    [self initSession];
+//                    break;
+//                case AVAuthorizationStatusNotDetermined: {
+//                    //   用户授权
+//                    [AVCaptureDevice requestAccessForMediaType:AVMediaTypeVideo completionHandler:^(BOOL granted) {
+//                        if(granted){
+//                            [self initSession];
+//                        } else {
+//                            [self dismissViewControllerAnimated:YES completion:^{
+//                                
+//                            }];
+//                        }
+//                    }];
+//                }
+//                    break;
+//                default:
+//                    break;
+//            }
+//            
+//        }
     }
     return self;
 }
